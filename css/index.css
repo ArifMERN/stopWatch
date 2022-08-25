@@ -1,6 +1,6 @@
 body {
   background-color: gray;
-  background-image: url('./tme_lapse.jpg');
+  background-image: url("../static/tme_lapse.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -31,7 +31,6 @@ body {
 .title {
   font-size: 70px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
 }
 
 .mainComponent > .watchComponent {
