@@ -29,6 +29,7 @@ function timer() {
 const resetTime = () => {
   HH = MM = 0,SS = 1;
   hours.innerHTML = minutes.innerHTML = seconds.innerHTML = "00";
+  clearInterval(myInterval);
   console.log("reset");
 };
 // Start timer...
